@@ -9,8 +9,8 @@
 .navicon a {
     font-size: 3rem;
     font-weight: 700;
-    color: #1278AB;
-    font-family: var(--Secondary);
+    color: #74d8c2;
+    font-family: var( --ffPrimary);
 }
 .navicon a:hover {
     font-size: 3rem;
@@ -35,8 +35,10 @@
 
 .navlink a {
     font-weight: 800;
-    color: #1278AB;
+    color: #74d8c2;
     font-family: var(--Primary);
+    font-size: 1.6rem;
+    margin: 0rem 1rem;
 }
 
 .navlink a:hover {
