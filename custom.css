@@ -1,9 +1,22 @@
-
-.navbar img {
+.logoimg img {
     height: 8rem;
-    width: 8rem;
+    cursor: pointer;
 }
 
+.navBarSection {
+    background-color: #2b3644;
+}
+.navicon a {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1278AB;
+    font-family: var(--Secondary);
+}
+.navicon a:hover {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0ae418;
+}
 
 .navIconBox .navicon {
     height: 3rem;
@@ -12,6 +25,7 @@
     color: #74d8c2;
     background-color: #1278AB;
     padding: 3rem;
+    cursor: pointer;
 }
 
 .navIconBox .navicon:hover {
@@ -19,18 +33,25 @@
     background-color: #0ae418;
 }
 
-.navbar-brand {
-    font-family: var(--ffPrimary);
-    font-size: 3rem;
-    font-weight: 700;
-    color: #74d8c2;
+.navlink a {
+    font-weight: 800;
+    color: #1278AB;
+    font-family: var(--Primary);
 }
 
-.navContactBox {
+.navlink a:hover {
+    color: #0ae418;
+
+}
+
+.contact button {
+    font-size: 1.6rem;
     background-color: #1278AB;
-    padding: 0.5rem 0.5rem;
+    color: #ffffff;
+    font-weight: 800;
 }
 
-.navContactBox:hover {
-    background-color: #0ace21;
+.contact button:hover {
+    background-color: #0ae418;
+
 }
